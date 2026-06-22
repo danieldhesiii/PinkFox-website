@@ -1,0 +1,257 @@
+{
+  "/Users/kamil/Desktop/pinkfoxv1/.claude/settings.local.json": {
+    "mtime": 1782141804.381771,
+    "ast_hash": "c04b28a8774d03e27b8a242fa73d7e21",
+    "semantic_hash": "c04b28a8774d03e27b8a242fa73d7e21"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/components.json": {
+    "mtime": 1782142127.822056,
+    "ast_hash": "fc5c9e9a7b93eeb2f7b4e1ce0959e4a6",
+    "semantic_hash": "fc5c9e9a7b93eeb2f7b4e1ce0959e4a6"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/eslint.config.mjs": {
+    "mtime": 1782142054.8605456,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/next.config.ts": {
+    "mtime": 1782142054.8598278,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/package.json": {
+    "mtime": 1782145545.387187,
+    "ast_hash": "048a2760dfd7a7317bbecafd33c60155",
+    "semantic_hash": "048a2760dfd7a7317bbecafd33c60155"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/postcss.config.mjs": {
+    "mtime": 1782142054.8600354,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/app/layout.tsx": {
+    "mtime": 1782142949.317827,
+    "ast_hash": "55fb6c28ac8e53de933c8b35ca610a00",
+    "semantic_hash": "55fb6c28ac8e53de933c8b35ca610a00"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/app/page.tsx": {
+    "mtime": 1782143496.0035863,
+    "ast_hash": "8926c55c20db0127694f7b28cec4de35",
+    "semantic_hash": "8926c55c20db0127694f7b28cec4de35"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/providers/LenisProvider.tsx": {
+    "mtime": 1782143859.0471559,
+    "ast_hash": "2d6ac484abd0955192415369d01d0d23",
+    "semantic_hash": "2d6ac484abd0955192415369d01d0d23"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/providers/index.tsx": {
+    "mtime": 1782142180.9239557,
+    "ast_hash": "0ce5f99c6a42f43071451f39e990083f",
+    "semantic_hash": "0ce5f99c6a42f43071451f39e990083f"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/ui/button.tsx": {
+    "mtime": 1782142132.0954466,
+    "ast_hash": "e04ce5251d6b0dd04020988126c905e9",
+    "semantic_hash": "e04ce5251d6b0dd04020988126c905e9"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/hooks/useSplitting.ts": {
+    "mtime": 1782142177.2792666,
+    "ast_hash": "a15ce10e83bd885c66e065662a384ebb",
+    "semantic_hash": "a15ce10e83bd885c66e065662a384ebb"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/lib/gsap.ts": {
+    "mtime": 1782142890.7242765,
+    "ast_hash": "dfb1e136e8fb9e155ab83795343bd54c",
+    "semantic_hash": "dfb1e136e8fb9e155ab83795343bd54c"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/lib/utils.ts": {
+    "mtime": 1782142132.1658268,
+    "ast_hash": "5a6fd53fdcf2be529e9cc0b718fde352",
+    "semantic_hash": "5a6fd53fdcf2be529e9cc0b718fde352"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/tsconfig.json": {
+    "mtime": 1782142054.8624606,
+    "ast_hash": "ee17fd1c97c735e9f3564e3f5251f125",
+    "semantic_hash": "ee17fd1c97c735e9f3564e3f5251f125"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/AGENTS.md": {
+    "mtime": 1782142096.4818556,
+    "ast_hash": "9e09241799026ac05be315a2f0b50055",
+    "semantic_hash": "9e09241799026ac05be315a2f0b50055"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/CLAUDE.md": {
+    "mtime": 1782142096.4819589,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": "5c27369b226fcf2be8a6cfe52224e767"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/README.md": {
+    "mtime": 1782144323.0228174,
+    "ast_hash": "da2bf04a6a5a60ad1d776da86a966d20",
+    "semantic_hash": "da2bf04a6a5a60ad1d776da86a966d20"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/file.svg": {
+    "mtime": 1782142054.8603282,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/globe.svg": {
+    "mtime": 1782142054.8604608,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/next.svg": {
+    "mtime": 1782142054.8607385,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/vercel.svg": {
+    "mtime": 1782142054.8619545,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/window.svg": {
+    "mtime": 1782142054.8606403,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": "a2760511c65806022ad20adf74370ff3"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/About.tsx": {
+    "mtime": 1782145317.8739238,
+    "ast_hash": "9ac791d2a123213fcb46cb88b5793bfd",
+    "semantic_hash": "9ac791d2a123213fcb46cb88b5793bfd"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Footer.tsx": {
+    "mtime": 1782143805.4602222,
+    "ast_hash": "bf28232cc494145597730aa6406ad572",
+    "semantic_hash": "bf28232cc494145597730aa6406ad572"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Gallery.tsx": {
+    "mtime": 1782143304.1431828,
+    "ast_hash": "f025f56f4666d6c6cb0a13a9beabd563",
+    "semantic_hash": "f025f56f4666d6c6cb0a13a9beabd563"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Hero.tsx": {
+    "mtime": 1782145307.816758,
+    "ast_hash": "85911fa6f644af5897001a2b14f99818",
+    "semantic_hash": "85911fa6f644af5897001a2b14f99818"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Navbar.tsx": {
+    "mtime": 1782143153.8677773,
+    "ast_hash": "70dd98d7d9e925a03224847803c37263",
+    "semantic_hash": "70dd98d7d9e925a03224847803c37263"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Reveal.tsx": {
+    "mtime": 1782143816.2748399,
+    "ast_hash": "67c40a1f0170b4be16a8b1c2b9376e37",
+    "semantic_hash": "67c40a1f0170b4be16a8b1c2b9376e37"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Services.tsx": {
+    "mtime": 1782143273.2327182,
+    "ast_hash": "3d0b5dfc4ef60158ad8ad2eaabfae258",
+    "semantic_hash": "3d0b5dfc4ef60158ad8ad2eaabfae258"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/Testimonials.tsx": {
+    "mtime": 1782143395.5188885,
+    "ast_hash": "24fffe404e0e095669ffdf1a2ecb7eef",
+    "semantic_hash": "24fffe404e0e095669ffdf1a2ecb7eef"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/components/site/WhatsAppButton.tsx": {
+    "mtime": 1782143130.6526735,
+    "ast_hash": "eada0b75f92cb749689d55bb6b357d75",
+    "semantic_hash": "eada0b75f92cb749689d55bb6b357d75"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/src/lib/site.ts": {
+    "mtime": 1782145293.6888368,
+    "ast_hash": "54b9970858d01b4c5b9d4624e3ea2808",
+    "semantic_hash": "54b9970858d01b4c5b9d4624e3ea2808"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/beauty/1.png": {
+    "mtime": 1782145276.4683676,
+    "ast_hash": "353ee8c400cf80e5732658e42524a928",
+    "semantic_hash": "353ee8c400cf80e5732658e42524a928"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/beauty/2.png": {
+    "mtime": 1782145276.5359027,
+    "ast_hash": "b685ef51d92db2f713e9fdaa1cf5d803",
+    "semantic_hash": "b685ef51d92db2f713e9fdaa1cf5d803"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/beauty/3.png": {
+    "mtime": 1782145276.6129448,
+    "ast_hash": "c21edcbbcca06178b3a082f0ad3d7b8c",
+    "semantic_hash": "c21edcbbcca06178b3a082f0ad3d7b8c"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/hair/1.png": {
+    "mtime": 1782145276.6697466,
+    "ast_hash": "c690bf72cb1a5c539d6e7fabf24b5ec9",
+    "semantic_hash": "c690bf72cb1a5c539d6e7fabf24b5ec9"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/hair/2.png": {
+    "mtime": 1782145276.696493,
+    "ast_hash": "c4c4bcda73b694b06824e22d2e1f57af",
+    "semantic_hash": "c4c4bcda73b694b06824e22d2e1f57af"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/hair/3.png": {
+    "mtime": 1782145276.724152,
+    "ast_hash": "9d41e159a0e26b526f7419672e9a0ea0",
+    "semantic_hash": "9d41e159a0e26b526f7419672e9a0ea0"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/nails/1.png": {
+    "mtime": 1782145276.920838,
+    "ast_hash": "a33bec0ed9b1cc0bec6a76b3dbbe80b1",
+    "semantic_hash": "a33bec0ed9b1cc0bec6a76b3dbbe80b1"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/nails/2.png": {
+    "mtime": 1782145277.0073197,
+    "ast_hash": "33d21da21f59bc2c9c62e7cd7156f191",
+    "semantic_hash": "33d21da21f59bc2c9c62e7cd7156f191"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/nails/3.png": {
+    "mtime": 1782145277.0807307,
+    "ast_hash": "5a71ffb570702da84bdc86d4e5c86097",
+    "semantic_hash": "5a71ffb570702da84bdc86d4e5c86097"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/hero/hero-portrait.png": {
+    "mtime": 1782145276.2009692,
+    "ast_hash": "ac346930fbdf50868bce48dcd69af4fd",
+    "semantic_hash": "ac346930fbdf50868bce48dcd69af4fd"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/beauty/4.png": {
+    "mtime": 1782145276.6406221,
+    "ast_hash": "6adcd9a7cfd05107c86cab7c432af872",
+    "semantic_hash": "6adcd9a7cfd05107c86cab7c432af872"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/hair/4.png": {
+    "mtime": 1782145276.7530136,
+    "ast_hash": "6d0caf533ceb3d7d1c41afff650fe626",
+    "semantic_hash": "6d0caf533ceb3d7d1c41afff650fe626"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/hair/5.png": {
+    "mtime": 1782145276.7787488,
+    "ast_hash": "db2b732e3c66571227400c9ec901be5f",
+    "semantic_hash": "db2b732e3c66571227400c9ec901be5f"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/hair/6.png": {
+    "mtime": 1782145276.8084946,
+    "ast_hash": "ba91bb4dca281a53e5875574c49fbd9c",
+    "semantic_hash": "ba91bb4dca281a53e5875574c49fbd9c"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/nails/4.png": {
+    "mtime": 1782145277.1802006,
+    "ast_hash": "db7b01e0593f7f0f477450ff4a5070a8",
+    "semantic_hash": "db7b01e0593f7f0f477450ff4a5070a8"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/nails/5.png": {
+    "mtime": 1782145277.209014,
+    "ast_hash": "ea6b0bd32647a1ddae1efe195b200064",
+    "semantic_hash": "ea6b0bd32647a1ddae1efe195b200064"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/gallery/nails/6.png": {
+    "mtime": 1782145277.3287942,
+    "ast_hash": "8df3daf57e96e183acff538bd3f599ec",
+    "semantic_hash": "8df3daf57e96e183acff538bd3f599ec"
+  },
+  "/Users/kamil/Desktop/pinkfoxv1/public/hero/about-salon.png": {
+    "mtime": 1782145276.2297084,
+    "ast_hash": "c148e1306876851df564cfdc360e63a5",
+    "semantic_hash": "c148e1306876851df564cfdc360e63a5"
+  }
+}

@@ -137,13 +137,11 @@ export default function Pricing() {
         <Reveal delay={160}>
           <div className="mt-10 text-center">
             <a
-              href={whatsappLink("Hi PinkFox! I'd love to get a quote for ")}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#booking"
               className="inline-flex items-center gap-2 rounded-full bg-rose-deep px-8 py-3.5 text-base font-medium text-white shadow-[0_14px_30px_-12px_var(--rose-deep)] transition-transform duration-300 hover:-translate-y-0.5 active:scale-[0.98]"
             >
               <WhatsappLogo weight="fill" className="h-5 w-5" />
-              Book or get a quote
+              Book an appointment
             </a>
           </div>
         </Reveal>

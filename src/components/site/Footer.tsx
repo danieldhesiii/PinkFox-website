@@ -27,13 +27,11 @@ export default function Footer() {
               </p>
               <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 <a
-                  href={whatsappLink()}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#booking"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-medium text-rose-deep transition-transform duration-300 hover:-translate-y-0.5 active:scale-[0.98]"
                 >
                   <WhatsappLogo weight="fill" className="h-5 w-5" />
-                  Book on WhatsApp
+                  Book an appointment
                 </a>
                 <a
                   href={site.socials.facebook}
@@ -80,6 +78,20 @@ export default function Footer() {
                 >
                   <WhatsappLogo weight="fill" className="h-5 w-5" />
                 </a>
+              </div>
+
+              {/* Mini map */}
+              <div className="mt-5 overflow-hidden rounded-xl border border-blush shadow-sm">
+                <iframe
+                  title="PinkFox location"
+                  src="https://maps.google.com/maps?q=1+Eastham+Cres+Brentwood+CM13+2BN+UK&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  width="100%"
+                  height="160"
+                  style={{ border: 0, display: "block" }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
 

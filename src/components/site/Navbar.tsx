@@ -65,9 +65,7 @@ export default function Navbar() {
             <FacebookLogo weight="fill" className="h-5 w-5" />
           </a>
           <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#booking"
             className="hidden rounded-full bg-rose-deep px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-sm transition-transform duration-300 hover:-translate-y-0.5 active:scale-95 sm:inline-flex"
           >
             Book now
@@ -106,13 +104,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#booking"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex items-center justify-center rounded-full bg-rose-deep px-5 py-3 text-sm font-medium text-primary-foreground"
           >
-            Book on WhatsApp
+            Book an appointment
           </a>
         </div>
       </div>

@@ -27,11 +27,15 @@ export const site = {
 
   // Optional — shown in the footer. Edit freely.
   hours: [
-    { day: "Tuesday – Friday", time: "9:00 – 19:00" },
-    { day: "Saturday", time: "9:00 – 17:00" },
-    { day: "Sunday – Monday", time: "Closed" },
+    { day: "Monday", time: "Closed" },
+    { day: "Tuesday", time: "09:30 – 17:00" },
+    { day: "Wednesday", time: "Closed" },
+    { day: "Thursday", time: "09:30 – 20:00" },
+    { day: "Friday", time: "11:00 – 17:00" },
+    { day: "Saturday", time: "08:30 – 16:00" },
+    { day: "Sunday", time: "Closed" },
   ],
-  area: "Brentwood, Essex",
+  area: "1 Eastham Cres, Brentwood CM13 2BN",
 } as const;
 
 export function whatsappLink(message?: string) {
@@ -113,6 +117,7 @@ export const nav = [
   { href: "#services", label: "Services" },
   { href: "#gallery", label: "Gallery" },
   { href: "#pricing", label: "Pricing" },
+  { href: "#booking", label: "Book" },
   { href: "#about", label: "About" },
   { href: "#visit", label: "Visit" },
 ];

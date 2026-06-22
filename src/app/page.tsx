@@ -4,6 +4,7 @@ import Services from "@/components/site/Services";
 import Gallery from "@/components/site/Gallery";
 import About from "@/components/site/About";
 import Pricing from "@/components/site/Pricing";
+import Booking from "@/components/site/Booking";
 import Testimonials from "@/components/site/Testimonials";
 import Footer from "@/components/site/Footer";
 import WhatsAppButton from "@/components/site/WhatsAppButton";
@@ -18,6 +19,7 @@ export default function Home() {
         <Gallery />
         <About />
         <Pricing />
+        <Booking />
         <Testimonials />
         <Footer />
       </main>

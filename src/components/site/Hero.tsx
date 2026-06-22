@@ -67,13 +67,11 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#booking"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-rose-deep px-7 py-3.5 text-base font-medium text-primary-foreground shadow-[0_14px_30px_-12px_var(--rose-deep)] transition-transform duration-300 hover:-translate-y-0.5 active:scale-[0.98]"
             >
               <WhatsappLogo weight="fill" className="h-5 w-5" />
-              Book on WhatsApp
+              Book an appointment
             </a>
             <a
               href="#gallery"
@@ -84,62 +82,22 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Editorial collage */}
+        {/* Hero image */}
         <div className="order-2 lg:order-2">
-          <div className="relative mx-auto grid max-w-sm grid-cols-[1.4fr_1fr] grid-rows-[1fr_1fr] gap-2.5 sm:max-w-md sm:gap-3 lg:max-w-none">
-
-            {/* Left — tall hair panel */}
-            <div className="row-span-2 overflow-hidden rounded-[1.25rem] shadow-[0_20px_50px_-16px_rgba(120,40,60,0.28)] sm:rounded-[1.6rem]">
-              <div className="relative h-full min-h-[280px] sm:min-h-[380px] lg:min-h-[420px]">
-                <Image
-                  src="/gallery/hair/2.png"
-                  alt="Copper balayage hair colour at PinkFox"
-                  fill
-                  priority
-                  sizes="(max-width:1024px) 55vw, 26vw"
-                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
-                />
-                {/* editorial label */}
-                <span className="absolute bottom-4 left-4 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-rose-deep backdrop-blur-sm">
-                  Hair
-                </span>
-              </div>
-            </div>
-
-            {/* Top right — lashes */}
-            <div className="overflow-hidden rounded-[1.25rem] shadow-[0_16px_40px_-14px_rgba(120,40,60,0.22)] sm:rounded-[1.6rem]">
-              <div className="relative aspect-square">
-                <Image
-                  src="/gallery/beauty/2.png"
-                  alt="Volume lash extensions at PinkFox"
-                  fill
-                  priority
-                  sizes="(max-width:1024px) 38vw, 18vw"
-                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
-                />
-                <span className="absolute bottom-3 left-3 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-rose-deep backdrop-blur-sm">
-                  Lashes
-                </span>
-              </div>
-            </div>
-
-            {/* Bottom right — nails */}
-            <div className="overflow-hidden rounded-[1.25rem] shadow-[0_16px_40px_-14px_rgba(120,40,60,0.22)] sm:rounded-[1.6rem]">
-              <div className="relative aspect-square">
-                <Image
-                  src="/hero/collage-nails.png"
-                  alt="Pink glitter french gel nails at PinkFox"
-                  fill
-                  sizes="(max-width:1024px) 38vw, 18vw"
-                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
-                />
-                <span className="absolute bottom-3 left-3 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-rose-deep backdrop-blur-sm">
-                  Nails
-                </span>
-              </div>
-            </div>
-
-            {/* decorative blush circle */}
+          <div className="relative mx-auto max-w-sm sm:max-w-md lg:max-w-none">
+            <div
+              aria-hidden
+              className="absolute inset-0 -rotate-2 rounded-[2rem] bg-white/70 shadow-[0_30px_80px_-30px_rgba(120,40,60,0.35)]"
+            />
+            <Image
+              src="/hero/hero-portrait.png"
+              alt="Hair, lashes and nails at PinkFox Brentwood"
+              width={800}
+              height={900}
+              priority
+              sizes="(max-width:1024px) 90vw, 44vw"
+              className="relative rounded-[1.75rem] object-cover p-2 w-full"
+            />
             <div
               aria-hidden
               className="pointer-events-none absolute -bottom-4 -right-4 h-20 w-20 rounded-full bg-blush"
