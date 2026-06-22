@@ -45,9 +45,9 @@ export default function Hero() {
         className="pointer-events-none absolute -left-40 bottom-0 h-[26rem] w-[26rem] rounded-full bg-blush-soft blur-3xl"
       />
 
-      <div className="relative mx-auto grid min-h-[calc(100dvh-7rem)] max-w-7xl items-center gap-12 px-5 pb-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pb-20">
+      <div className="relative mx-auto grid min-h-[calc(100dvh-7rem)] max-w-7xl items-center gap-8 px-5 pb-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8 lg:pb-20">
         {/* Copy */}
-        <div className="order-2 lg:order-1">
+        <div className="order-1 lg:order-1">
           <span className="inline-flex items-center gap-2 rounded-full border border-rose/25 bg-white/60 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-rose-deep">
             <Sparkle weight="fill" className="h-3.5 w-3.5" />
             Brentwood beauty studio
@@ -55,7 +55,7 @@ export default function Hero() {
 
           <h1
             ref={headingRef}
-            className="mt-6 font-display text-[2.7rem] font-medium leading-[1.04] tracking-tight text-ink sm:text-6xl lg:text-[4.4rem]"
+            className="mt-6 font-display text-[2.1rem] font-medium leading-[1.06] tracking-tight text-ink sm:text-5xl lg:text-[4.4rem]"
           >
             Lashes, hair &amp; nails, <em className="italic text-rose-deep">done beautifully.</em>
           </h1>
@@ -84,20 +84,65 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Portrait */}
-        <div className="order-1 lg:order-2">
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-md">
+        {/* Editorial collage */}
+        <div className="order-2 lg:order-2">
+          <div className="relative mx-auto grid max-w-sm grid-cols-[1.4fr_1fr] grid-rows-[1fr_1fr] gap-2.5 sm:max-w-md sm:gap-3 lg:max-w-none">
+
+            {/* Left — tall hair panel */}
+            <div className="row-span-2 overflow-hidden rounded-[1.25rem] shadow-[0_20px_50px_-16px_rgba(120,40,60,0.28)] sm:rounded-[1.6rem]">
+              <div className="relative h-full min-h-[280px] sm:min-h-[380px] lg:min-h-[420px]">
+                <Image
+                  src="/gallery/hair/2.png"
+                  alt="Copper balayage hair colour at PinkFox"
+                  fill
+                  priority
+                  sizes="(max-width:1024px) 55vw, 26vw"
+                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
+                />
+                {/* editorial label */}
+                <span className="absolute bottom-4 left-4 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-rose-deep backdrop-blur-sm">
+                  Hair
+                </span>
+              </div>
+            </div>
+
+            {/* Top right — lashes */}
+            <div className="overflow-hidden rounded-[1.25rem] shadow-[0_16px_40px_-14px_rgba(120,40,60,0.22)] sm:rounded-[1.6rem]">
+              <div className="relative aspect-square">
+                <Image
+                  src="/gallery/beauty/2.png"
+                  alt="Volume lash extensions at PinkFox"
+                  fill
+                  priority
+                  sizes="(max-width:1024px) 38vw, 18vw"
+                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
+                />
+                <span className="absolute bottom-3 left-3 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-rose-deep backdrop-blur-sm">
+                  Lashes
+                </span>
+              </div>
+            </div>
+
+            {/* Bottom right — nails */}
+            <div className="overflow-hidden rounded-[1.25rem] shadow-[0_16px_40px_-14px_rgba(120,40,60,0.22)] sm:rounded-[1.6rem]">
+              <div className="relative aspect-square">
+                <Image
+                  src="/hero/collage-nails.png"
+                  alt="Pink glitter french gel nails at PinkFox"
+                  fill
+                  sizes="(max-width:1024px) 38vw, 18vw"
+                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
+                />
+                <span className="absolute bottom-3 left-3 rounded-full bg-white/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-rose-deep backdrop-blur-sm">
+                  Nails
+                </span>
+              </div>
+            </div>
+
+            {/* decorative blush circle */}
             <div
               aria-hidden
-              className="absolute inset-0 -rotate-2 rounded-[2.5rem] bg-white/70 shadow-[0_30px_80px_-30px_rgba(120,40,60,0.35)]"
-            />
-            <Image
-              src="/hero/hero-portrait.png"
-              alt="Bridal pearl updo styled at the PinkFox studio"
-              fill
-              priority
-              sizes="(max-width: 1024px) 90vw, 42vw"
-              className="rounded-[2.25rem] object-cover p-2"
+              className="pointer-events-none absolute -bottom-4 -right-4 h-20 w-20 rounded-full bg-blush"
             />
           </div>
         </div>

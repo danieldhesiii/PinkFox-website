@@ -8,7 +8,7 @@ export default function Footer() {
       {/* Visit / final CTA */}
       <section id="visit" className="bg-cream px-5 pb-24 sm:px-8 lg:pb-32">
         <Reveal>
-          <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] bg-rose-deep px-6 py-16 text-center sm:px-12 lg:py-24">
+          <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[1.5rem] bg-rose-deep px-6 py-14 text-center sm:rounded-[2.5rem] sm:px-12 lg:py-24">
             <div
               aria-hidden
               className="pointer-events-none absolute -left-20 -top-20 h-72 w-72 rounded-full bg-white/10 blur-2xl"
@@ -18,7 +18,7 @@ export default function Footer() {
               className="pointer-events-none absolute -bottom-24 -right-16 h-80 w-80 rounded-full bg-blush/20 blur-2xl"
             />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl font-display text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
+              <h2 className="mx-auto max-w-2xl font-display text-3xl leading-tight text-white sm:text-5xl lg:text-6xl">
                 Ready when you are.
               </h2>
               <p className="mx-auto mt-5 max-w-md text-lg text-white/85">

@@ -28,7 +28,7 @@ export default function Navbar() {
       className={[
         "fixed inset-x-0 top-0 z-40 transition-colors duration-500",
         scrolled || open
-          ? "border-b border-border/70 bg-cream/85 backdrop-blur-md"
+          ? "border-b border-border/70 bg-[oklch(0.985_0.008_70/0.9)] backdrop-blur-md"
           : "border-b border-transparent bg-transparent",
       ].join(" ")}
     >
@@ -85,11 +85,14 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={[
-          "overflow-hidden border-t border-border/60 bg-cream/95 backdrop-blur-md lg:hidden",
-          "transition-[max-height,opacity] duration-500 ease-out",
-          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0",
-        ].join(" ")}
+        className="overflow-hidden border-t border-border/60 backdrop-blur-md lg:hidden"
+        style={{
+          background: "oklch(0.985 0.008 70 / 0.97)",
+          maxHeight: open ? "520px" : "0px",
+          opacity: open ? 1 : 0,
+          pointerEvents: open ? "auto" : "none",
+          transition: "max-height 0.3s ease, opacity 0.2s ease",
+        }}
       >
         <div className="flex flex-col gap-1 px-5 py-4">
           {nav.map((item) => (

@@ -54,7 +54,7 @@ export default function Gallery() {
     <section id="gallery" className="bg-blush-soft py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-          <h2 className="font-display text-4xl leading-tight text-ink sm:text-5xl lg:text-6xl">
+          <h2 className="font-display text-3xl leading-tight text-ink sm:text-5xl lg:text-6xl">
             Recent work, <span className="italic text-rose-deep">straight from the studio.</span>
           </h2>
           <p className="max-w-sm text-ink-soft">
@@ -123,42 +123,38 @@ export default function Gallery() {
       {/* Lightbox */}
       {lightbox !== null && (
         <div
-          className="fixed inset-0 z-[70] flex items-center justify-center bg-ink/85 p-4 backdrop-blur-sm"
+          className="fixed inset-0 z-[70] flex items-center justify-center bg-ink/85 p-2 backdrop-blur-sm sm:p-4"
           onClick={close}
           role="dialog"
           aria-modal="true"
           aria-label="Gallery image viewer"
         >
+          {/* Close */}
           <button
             onClick={close}
             aria-label="Close"
-            className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
+            className="absolute right-3 top-3 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-4 sm:top-4"
           >
             <X className="h-6 w-6" />
           </button>
+          {/* Prev — bottom of screen on mobile for easy thumb reach */}
           <button
-            onClick={(e) => {
-              e.stopPropagation();
-              prev();
-            }}
+            onClick={(e) => { e.stopPropagation(); prev(); }}
             aria-label="Previous"
-            className="absolute left-3 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:left-6"
+            className="absolute bottom-5 left-5 flex h-14 w-14 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white/25 sm:bottom-auto sm:left-4 sm:top-1/2 sm:h-12 sm:w-12 sm:-translate-y-1/2 lg:left-6"
           >
             <CaretLeft className="h-6 w-6" />
           </button>
           <button
-            onClick={(e) => {
-              e.stopPropagation();
-              next();
-            }}
+            onClick={(e) => { e.stopPropagation(); next(); }}
             aria-label="Next"
-            className="absolute right-3 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-6"
+            className="absolute bottom-5 right-5 flex h-14 w-14 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white/25 sm:bottom-auto sm:right-4 sm:top-1/2 sm:h-12 sm:w-12 sm:-translate-y-1/2 lg:right-6"
           >
             <CaretRight className="h-6 w-6" />
           </button>
 
           <figure
-            className="relative max-h-[85vh] w-auto"
+            className="relative mx-auto w-full max-w-2xl px-2"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
@@ -166,7 +162,7 @@ export default function Gallery() {
               alt={images[lightbox].alt}
               width={1200}
               height={1600}
-              className="max-h-[85vh] w-auto rounded-xl object-contain"
+              className="mx-auto max-h-[78vh] w-auto rounded-xl object-contain sm:max-h-[85vh]"
             />
             <figcaption className="mt-3 text-center text-sm text-white/70">
               {images[lightbox].alt}

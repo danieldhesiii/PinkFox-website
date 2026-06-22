@@ -108,7 +108,7 @@ export default function Pricing() {
               {current.items.map((item, i) => (
                 <div
                   key={item.name}
-                  className={`flex items-center justify-between gap-4 px-6 py-4 transition-colors hover:bg-blush/40 ${
+                  className={`flex items-center justify-between gap-3 px-4 py-3.5 transition-colors hover:bg-blush/40 sm:gap-4 sm:px-6 sm:py-4 ${
                     i === 0 ? "rounded-t-2xl" : ""
                   } ${i === current.items.length - 1 ? "rounded-b-2xl" : ""}`}
                 >
@@ -125,7 +125,7 @@ export default function Pricing() {
               ))}
             </div>
 
-            <div className="border-t border-blush bg-cream/60 px-6 py-5">
+            <div className="border-t border-blush bg-cream/60 px-4 py-4 sm:px-6 sm:py-5">
               <p className="text-sm text-ink-soft">
                 Prices are a guide and may vary. A patch test is required 48 hours before lash and tint services for first-time clients.
               </p>

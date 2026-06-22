@@ -5,15 +5,10 @@ import { useEffect, useRef, useState } from "react";
 type RevealProps = {
   children: React.ReactNode;
   className?: string;
-  /** stagger delay in ms */
   delay?: number;
   as?: "div" | "li" | "section" | "span";
 };
 
-/**
- * Fade-and-rise on scroll-in using IntersectionObserver (no scroll listeners).
- * Collapses to a static, fully-visible state under prefers-reduced-motion.
- */
 export default function Reveal({
   children,
   className = "",
@@ -27,6 +22,12 @@ export default function Reveal({
     const el = ref.current;
     if (!el) return;
 
+    // Respect reduced motion — show immediately
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setShown(true);
+      return;
+    }
+
     const obs = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -34,7 +35,7 @@ export default function Reveal({
           obs.disconnect();
         }
       },
-      { threshold: 0.18, rootMargin: "0px 0px -8% 0px" }
+      { threshold: 0, rootMargin: "0px" }
     );
     obs.observe(el);
     return () => obs.disconnect();
@@ -44,12 +45,13 @@ export default function Reveal({
   return (
     <Tag
       ref={ref}
-      style={{ transitionDelay: shown ? `${delay}ms` : "0ms" }}
-      className={[
-        "reveal-el transition-[opacity,transform] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform",
-        shown ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6",
-        className,
-      ].join(" ")}
+      className={className}
+      style={{
+        opacity: shown ? 1 : 0,
+        transform: shown ? "translateY(0)" : "translateY(20px)",
+        transition: `opacity 0.7s ease ${delay}ms, transform 0.7s ease ${delay}ms`,
+        willChange: "opacity, transform",
+      }}
     >
       {children}
     </Tag>
