@@ -22,9 +22,9 @@ export default function Services() {
     <section id="services" className="relative bg-cream py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal>
-          <p className="max-w-xl font-display text-4xl leading-tight text-ink sm:text-5xl">
+          <h2 className="max-w-xl font-display text-4xl leading-tight text-ink sm:text-5xl">
             One studio for the three things you never want to compromise on.
-          </p>
+          </h2>
         </Reveal>
 
         <div className="mt-14 grid gap-4 lg:grid-cols-2 lg:grid-rows-2">

@@ -19,8 +19,8 @@ export default function Home() {
         <Gallery />
         <About />
         <Pricing />
-        <Booking />
         <Testimonials />
+        <Booking />
         <Footer />
       </main>
       <WhatsAppButton />

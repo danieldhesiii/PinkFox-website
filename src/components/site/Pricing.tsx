@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { whatsappLink } from "@/lib/site";
 import { WhatsappLogo } from "@phosphor-icons/react";
 import Reveal from "./Reveal";
 
@@ -138,9 +137,9 @@ export default function Pricing() {
           <div className="mt-10 text-center">
             <a
               href="#booking"
-              className="inline-flex items-center gap-2 rounded-full bg-rose-deep px-8 py-3.5 text-base font-medium text-white shadow-[0_14px_30px_-12px_var(--rose-deep)] transition-transform duration-300 hover:-translate-y-0.5 active:scale-[0.98]"
+              className="inline-flex items-center gap-2 rounded-full bg-rose-deep px-8 py-3.5 text-sm font-medium tracking-wide text-white shadow-[0_12px_28px_-10px_var(--rose-deep)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-10px_var(--rose-deep)] active:scale-[0.97]"
             >
-              <WhatsappLogo weight="fill" className="h-5 w-5" />
+              <WhatsappLogo weight="fill" className="h-4 w-4" />
               Book an appointment
             </a>
           </div>

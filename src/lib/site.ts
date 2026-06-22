@@ -116,8 +116,8 @@ export const galleryTabs: { key: ServiceKey; label: string }[] = [
 export const nav = [
   { href: "#services", label: "Services" },
   { href: "#gallery", label: "Gallery" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#booking", label: "Book" },
   { href: "#about", label: "About" },
-  { href: "#visit", label: "Visit" },
+  { href: "#pricing", label: "Pricing" },
+  { href: "#reviews", label: "Reviews" },
+  { href: "#booking", label: "Book" },
 ];

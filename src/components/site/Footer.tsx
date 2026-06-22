@@ -5,49 +5,6 @@ import Reveal from "./Reveal";
 export default function Footer() {
   return (
     <>
-      {/* Visit / final CTA */}
-      <section id="visit" className="bg-cream px-5 pb-24 sm:px-8 lg:pb-32">
-        <Reveal>
-          <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[1.5rem] bg-rose-deep px-6 py-14 text-center sm:rounded-[2.5rem] sm:px-12 lg:py-24">
-            <div
-              aria-hidden
-              className="pointer-events-none absolute -left-20 -top-20 h-72 w-72 rounded-full bg-white/10 blur-2xl"
-            />
-            <div
-              aria-hidden
-              className="pointer-events-none absolute -bottom-24 -right-16 h-80 w-80 rounded-full bg-blush/20 blur-2xl"
-            />
-            <div className="relative">
-              <h2 className="mx-auto max-w-2xl font-display text-3xl leading-tight text-white sm:text-5xl lg:text-6xl">
-                Ready when you are.
-              </h2>
-              <p className="mx-auto mt-5 max-w-md text-lg text-white/85">
-                Send a quick message and we&apos;ll find you a time. It really is
-                that simple.
-              </p>
-              <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-                <a
-                  href="#booking"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-medium text-rose-deep transition-transform duration-300 hover:-translate-y-0.5 active:scale-[0.98]"
-                >
-                  <WhatsappLogo weight="fill" className="h-5 w-5" />
-                  Book an appointment
-                </a>
-                <a
-                  href={site.socials.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-base font-medium text-white transition-colors hover:bg-white/10"
-                >
-                  <FacebookLogo weight="fill" className="h-5 w-5" />
-                  Visit our Facebook
-                </a>
-              </div>
-            </div>
-          </div>
-        </Reveal>
-      </section>
-
       {/* Footer */}
       <footer className="border-t border-border/70 bg-cream-deep">
         <div className="mx-auto max-w-7xl px-5 py-14 sm:px-8">

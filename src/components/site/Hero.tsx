@@ -3,7 +3,6 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Sparkle, WhatsappLogo } from "@phosphor-icons/react";
-import { whatsappLink } from "@/lib/site";
 
 export default function Hero() {
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -68,14 +67,14 @@ export default function Hero() {
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#booking"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-rose-deep px-7 py-3.5 text-base font-medium text-primary-foreground shadow-[0_14px_30px_-12px_var(--rose-deep)] transition-transform duration-300 hover:-translate-y-0.5 active:scale-[0.98]"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-rose-deep px-7 py-3.5 text-sm font-medium tracking-wide text-white shadow-[0_12px_28px_-10px_var(--rose-deep)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-10px_var(--rose-deep)] active:scale-[0.97]"
             >
-              <WhatsappLogo weight="fill" className="h-5 w-5" />
+              <WhatsappLogo weight="fill" className="h-4 w-4" />
               Book an appointment
             </a>
             <a
               href="#gallery"
-              className="inline-flex items-center justify-center rounded-full border border-ink/15 bg-white/50 px-7 py-3.5 text-base font-medium text-ink transition-colors hover:border-rose/40 hover:text-rose-deep"
+              className="inline-flex items-center justify-center rounded-full border border-rose-deep/25 bg-white/60 px-7 py-3.5 text-sm font-medium tracking-wide text-rose-deep backdrop-blur-sm transition-all duration-300 hover:border-rose-deep/50 hover:bg-white hover:shadow-[0_4px_16px_-6px_rgba(120,40,60,0.2)]"
             >
               View the gallery
             </a>

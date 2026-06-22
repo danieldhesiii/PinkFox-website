@@ -42,7 +42,7 @@ export default function Testimonials() {
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   return (
-    <section className="bg-cream pb-24 lg:pb-32">
+    <section id="reviews" className="bg-cream pb-24 lg:pb-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal>
           <h2 className="max-w-2xl font-display text-4xl leading-tight text-ink sm:text-5xl">
